@@ -1,4 +1,4 @@
-import logoPhaseTwoCream from "@/assets/logo-phase-two-cream.svg";
+import logoPhaseTwoBlack from "@/assets/logo-phase-two-black.svg";
 
 interface HeaderProps {
   onContactClick: () => void;
@@ -10,9 +10,9 @@ const Header = ({ onContactClick }: HeaderProps) => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center">
           <img 
-            src={logoPhaseTwoCream} 
+            src={logoPhaseTwoBlack} 
             alt="Phase Two" 
-            className="h-10 md:h-12 w-auto"
+            className="h-8 md:h-10 w-auto"
           />
         </a>
         

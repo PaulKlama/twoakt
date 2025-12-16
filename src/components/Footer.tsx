@@ -1,4 +1,4 @@
-import logoPhaseTwoCream from "@/assets/logo-phase-two-cream.svg";
+import logoPhaseTwoBlack from "@/assets/logo-phase-two-black.svg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <img 
-            src={logoPhaseTwoCream} 
+            src={logoPhaseTwoBlack} 
             alt="Phase Two" 
-            className="h-8 w-auto"
+            className="h-6 w-auto"
           />
           
           <nav className="flex items-center gap-8">
