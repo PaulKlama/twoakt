@@ -1,5 +1,5 @@
-import logoGrowCream from "@/assets/logo-grow-cream.svg";
-import logoScaleCream from "@/assets/logo-scale-cream.svg";
+import logoGrowBlack from "@/assets/logo-grow-black.svg";
+import logoScaleWhite from "@/assets/logo-scale-white.svg";
 
 interface OffersProps {
   onContactClick: () => void;
@@ -22,9 +22,9 @@ const Offers = ({ onContactClick }: OffersProps) => {
           {/* Two Grow */}
           <div className="group bg-secondary/50 p-8 md:p-12 border border-border hover:border-foreground/30 transition-all duration-300">
             <img 
-              src={logoGrowCream} 
+              src={logoGrowBlack} 
               alt="Two Grow" 
-              className="h-10 w-auto mb-8"
+              className="h-8 w-auto mb-8"
             />
             
             <h3 className="font-serif text-title font-medium text-foreground mb-4">
@@ -67,9 +67,9 @@ const Offers = ({ onContactClick }: OffersProps) => {
           {/* Two Scale */}
           <div className="group bg-primary text-primary-foreground p-8 md:p-12 border border-primary">
             <img 
-              src={logoScaleCream} 
+              src={logoScaleWhite} 
               alt="Two Scale" 
-              className="h-10 w-auto mb-8 invert"
+              className="h-8 w-auto mb-8"
             />
             
             <h3 className="font-serif text-title font-medium mb-4">
