@@ -1,13 +1,12 @@
 import logoGrowBlack from "@/assets/logo-grow-black.svg";
 import logoScaleWhite from "@/assets/logo-scale-white.svg";
-
 interface OffersProps {
   onContactClick: () => void;
 }
-
-const Offers = ({ onContactClick }: OffersProps) => {
-  return (
-    <section id="offres" className="py-20 md:py-32 scroll-mt-20">
+const Offers = ({
+  onContactClick
+}: OffersProps) => {
+  return <section id="offres" className="py-20 md:py-32 scroll-mt-20">
       <div className="container">
         <div className="max-w-xl mb-16">
           <p className="font-sans text-sm font-semibold tracking-widest uppercase text-muted-foreground mb-4">
@@ -21,21 +20,13 @@ const Offers = ({ onContactClick }: OffersProps) => {
         <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
           {/* Two Grow */}
           <div className="group bg-secondary/50 p-8 md:p-12 border border-border hover:border-foreground/30 transition-all duration-300">
-            <img 
-              src={logoGrowBlack} 
-              alt="Two Grow" 
-              className="h-8 w-auto mb-8"
-            />
+            <img src={logoGrowBlack} alt="Two Grow" className="h-8 w-auto mb-8" />
             
             <h3 className="font-serif text-title font-medium text-foreground mb-4">
               Structuration
             </h3>
             
-            <p className="font-sans text-base text-ink-light mb-8 leading-relaxed">
-              Pour les entreprises qui ont besoin de poser des fondations marketing solides. 
-              Stratégie, processus, outils, équipe — on structure tout ce qui doit l'être 
-              pour supporter votre ambition.
-            </p>
+            <p className="font-sans text-base text-ink-light mb-8 leading-relaxed">Pour les entreprises qui ont besoin de poser des fondations marketing solides. Stratégie, processus, outils, équipe : on structure tout ce qui doit l'être pour supporter votre ambition.</p>
             
             <div className="space-y-3 mb-10">
               <div className="flex items-start gap-3">
@@ -56,21 +47,14 @@ const Offers = ({ onContactClick }: OffersProps) => {
               </div>
             </div>
             
-            <button 
-              onClick={onContactClick}
-              className="font-sans text-sm font-semibold text-foreground border-b-2 border-foreground pb-1 hover:opacity-70 transition-opacity"
-            >
+            <button onClick={onContactClick} className="font-sans text-sm font-semibold text-foreground border-b-2 border-foreground pb-1 hover:opacity-70 transition-opacity">
               En savoir plus →
             </button>
           </div>
           
           {/* Two Scale */}
           <div className="group bg-primary text-primary-foreground p-8 md:p-12 border border-primary">
-            <img 
-              src={logoScaleWhite} 
-              alt="Two Scale" 
-              className="h-8 w-auto mb-8"
-            />
+            <img src={logoScaleWhite} alt="Two Scale" className="h-8 w-auto mb-8" />
             
             <h3 className="font-serif text-title font-medium mb-4">
               Accélération & Pilotage
@@ -101,17 +85,12 @@ const Offers = ({ onContactClick }: OffersProps) => {
               </div>
             </div>
             
-            <button 
-              onClick={onContactClick}
-              className="font-sans text-sm font-semibold text-primary-foreground border-b-2 border-primary-foreground pb-1 hover:opacity-70 transition-opacity"
-            >
+            <button onClick={onContactClick} className="font-sans text-sm font-semibold text-primary-foreground border-b-2 border-primary-foreground pb-1 hover:opacity-70 transition-opacity">
               En savoir plus →
             </button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Offers;
