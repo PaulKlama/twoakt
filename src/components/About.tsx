@@ -22,8 +22,8 @@ const About = () => {
               <p className="font-sans text-body-lg text-ink-light leading-relaxed">
                 Phase Two est né d'une conviction : les entreprises qui s'adressent aux RH méritent 
                 un marketing à la hauteur de leurs ambitions. Après une décennie passée à construire 
-                et scaler des équipes marketing dans la HR Tech — de la start-up pré-Série A au leader 
-                mondial SuccessFactors — j'ai choisi de mettre cette expertise au service d'entreprises ambitieuses.
+                et scaler des équipes marketing dans la HR Tech, de la start-up pré-Série A au leader 
+                mondial SuccessFactors, j'ai choisi de mettre cette expertise au service d'entreprises ambitieuses.
               </p>
               
               <p className="font-sans text-body-lg text-ink-light leading-relaxed">
