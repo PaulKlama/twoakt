@@ -20,7 +20,7 @@ const Offers = ({
         <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
           {/* Two Grow */}
           <div className="group bg-secondary/50 p-8 md:p-12 border border-border hover:border-foreground/30 transition-all duration-300">
-            <img src={logoGrowBlack} alt="Two Grow" className="h-8 w-auto mb-8" />
+            <img alt="Two Grow" className="h-8 w-auto mb-8" src="/lovable-uploads/c4b72bae-6b81-408a-9859-2b19fe06960e.png" />
             
             <h3 className="font-serif text-title font-medium text-foreground mb-4">
               Structuration
@@ -54,7 +54,7 @@ const Offers = ({
           
           {/* Two Scale */}
           <div className="group bg-primary text-primary-foreground p-8 md:p-12 border border-primary">
-            <img src={logoScaleWhite} alt="Two Scale" className="h-8 w-auto mb-8" />
+            <img alt="Two Scale" className="h-8 w-auto mb-8" src="/lovable-uploads/c6bee803-d78e-434b-add6-646f3f1a5580.png" />
             
             <h3 className="font-serif text-title font-medium mb-4">
               Accélération & Pilotage
