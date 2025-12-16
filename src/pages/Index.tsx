@@ -1,13 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import ConceptSection from "@/components/ConceptSection";
+import Offers from "@/components/Offers";
+import Expertise from "@/components/Expertise";
+import About from "@/components/About";
+import Targets from "@/components/Targets";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
+import ContactModal from "@/components/ContactModal";
 
 const Index = () => {
+  const [contactOpen, setContactOpen] = useState(false);
+
+  const handleContactClick = () => {
+    setContactOpen(true);
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <Header onContactClick={handleContactClick} />
+      <Hero onContactClick={handleContactClick} />
+      <ConceptSection />
+      <Offers onContactClick={handleContactClick} />
+      <Expertise />
+      <About />
+      <Targets />
+      <CTASection onContactClick={handleContactClick} />
+      <Footer />
+      <ContactModal open={contactOpen} onOpenChange={setContactOpen} />
+    </main>
   );
 };
 
