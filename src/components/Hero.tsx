@@ -8,16 +8,16 @@ const Hero = ({ onContactClick }: HeroProps) => {
       <div className="container">
         <div className="max-w-4xl">
           <p className="font-sans text-sm md:text-base font-semibold tracking-widest uppercase text-muted-foreground mb-6 animate-fade-in">
-            Marketing Studio B2B
+            Marketing Studio HR Tech
           </p>
           
           <h1 className="text-display font-serif font-medium text-foreground mb-8 animate-fade-in-up opacity-0 delay-100">
             Passez à la<br />
-            <em className="italic">phase deux</em>
+            <em className="italic">Phase Two</em>
           </h1>
           
           <p className="font-sans text-body-lg text-ink-light max-w-2xl mb-10 animate-fade-in-up opacity-0 delay-200">
-            Phase Two accompagne les entreprises B2B dans leurs moments de croissance critiques. 
+            Phase Two accompagne les entreprises qui parlent aux RH dans leurs moments de croissance critiques. 
             Structuration. Accélération. Scale.
           </p>
           
@@ -40,19 +40,19 @@ const Hero = ({ onContactClick }: HeroProps) => {
         <div className="mt-20 md:mt-32 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 animate-fade-in-up opacity-0 delay-400">
           <div className="border-l-2 border-foreground/20 pl-4">
             <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">10+</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">années d'expérience</p>
-          </div>
-          <div className="border-l-2 border-foreground/20 pl-4">
-            <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">B2B</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">focus exclusif</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">ans auprès des RH</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
             <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">HR Tech</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">expertise sectorielle</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">focus exclusif</p>
+          </div>
+          <div className="border-l-2 border-foreground/20 pl-4">
+            <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Startup</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">à grand groupe</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
             <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Scale</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">up to enterprise</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">& transformation</p>
           </div>
         </div>
       </div>
