@@ -1,15 +1,15 @@
 const targets = [
   {
-    title: "Startups early stage",
-    description: "Vous lancez votre premier produit et avez besoin de poser les bases d'un marketing efficace.",
+    title: "Éditeurs HR Tech early stage",
+    description: "Vous lancez votre solution RH et avez besoin de poser les bases d'un marketing qui parle aux DRH.",
   },
   {
-    title: "Scale-ups en croissance",
-    description: "Vous avez trouvé votre product-market fit et devez professionnaliser votre marketing pour accélérer.",
+    title: "Scale-ups HR Tech",
+    description: "Vous avez trouvé votre product-market fit et devez professionnaliser votre marketing pour accélérer sur le marché RH.",
   },
   {
-    title: "Entreprises en transformation",
-    description: "Post-acquisition, fusion, nouveau marché — vous traversez une phase de changement structurant.",
+    title: "Entreprises B2B qui parlent aux RH",
+    description: "Formation, conseil, services RH — vous ciblez les décideurs RH et avez besoin d'un marketing qui comprend leurs enjeux.",
   },
 ];
 
@@ -22,7 +22,7 @@ const Targets = () => {
             Pour qui ?
           </p>
           <h2 className="text-headline font-serif font-medium text-foreground">
-            Entreprises en phase de croissance
+            Entreprises qui s'adressent aux RH
           </h2>
         </div>
         

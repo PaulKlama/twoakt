@@ -1,8 +1,8 @@
 const experiences = [
-  "Scale-up post Série A",
-  "Acquisition par SAP",
-  "Start-up early stage (pré Série A)",
-  "Fusion dans un groupe européen (Private Equity)",
+  { title: "Scale-up post Série A", detail: "Croissance accélérée en HR Tech" },
+  { title: "SuccessFactors / SAP", detail: "Leader mondial des solutions RH" },
+  { title: "Start-up early stage", detail: "Pré Série A, premiers clients RH" },
+  { title: "Groupe européen (PE)", detail: "Fusion et transformation RH" },
 ];
 
 const About = () => {
@@ -15,19 +15,19 @@ const About = () => {
               À propos
             </p>
             <h2 className="text-headline font-serif font-medium text-foreground mb-8">
-              10 ans au cœur de la croissance B2B
+              10 ans au cœur de la HR Tech
             </h2>
             
             <div className="space-y-6">
               <p className="font-sans text-body-lg text-ink-light leading-relaxed">
-                Phase Two est né d'une conviction : le marketing B2B mérite mieux que des solutions génériques. 
-                Après une décennie passée à construire et scaler des équipes marketing dans des contextes 
-                variés — de la start-up early stage à l'entreprise post-acquisition — j'ai choisi de 
-                mettre cette expérience au service d'entreprises ambitieuses.
+                Phase Two est né d'une conviction : les entreprises qui s'adressent aux RH méritent 
+                un marketing à la hauteur de leurs ambitions. Après une décennie passée à construire 
+                et scaler des équipes marketing dans la HR Tech — de la start-up pré-Série A au leader 
+                mondial SuccessFactors — j'ai choisi de mettre cette expertise au service d'entreprises ambitieuses.
               </p>
               
               <p className="font-sans text-body-lg text-ink-light leading-relaxed">
-                Mon terrain de jeu : la HR Tech et plus largement le B2B SaaS. 
+                Mon terrain de jeu exclusif : les entreprises qui parlent aux RH. 
                 Mon approche : pragmatique, orientée impact, sans bullshit.
               </p>
             </div>
@@ -47,9 +47,14 @@ const About = () => {
                   <span className="font-serif text-2xl text-primary-foreground/50">
                     {String(index + 1).padStart(2, '0')}
                   </span>
-                  <p className="font-sans text-base text-primary-foreground/90 pt-1">
-                    {exp}
-                  </p>
+                  <div className="pt-1">
+                    <p className="font-sans text-base text-primary-foreground/90 font-medium">
+                      {exp.title}
+                    </p>
+                    <p className="font-sans text-sm text-primary-foreground/60">
+                      {exp.detail}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

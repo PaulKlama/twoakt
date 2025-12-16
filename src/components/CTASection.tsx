@@ -8,7 +8,7 @@ const CTASection = ({ onContactClick }: CTASectionProps) => {
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-headline font-serif font-medium mb-6">
-            Prêt à passer à la phase deux ?
+            Prêt à passer à la Phase Two ?
           </h2>
           
           <p className="font-sans text-lg text-primary-foreground/80 mb-10 max-w-xl mx-auto">
