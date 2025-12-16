@@ -1,14 +1,14 @@
 interface HeroProps {
   onContactClick: () => void;
 }
-
-const Hero = ({ onContactClick }: HeroProps) => {
-  return (
-    <section className="min-h-screen flex items-center pt-20 pb-16 md:pt-32 md:pb-24">
+const Hero = ({
+  onContactClick
+}: HeroProps) => {
+  return <section className="min-h-screen flex items-center pt-20 pb-16 md:pt-32 md:pb-24">
       <div className="container">
         <div className="max-w-4xl">
           <p className="font-sans text-sm md:text-base font-semibold tracking-widest uppercase text-muted-foreground mb-6 animate-fade-in">
-            Marketing Studio HR Tech
+            Marketing Agency - HR Tech
           </p>
           
           <h1 className="text-display font-serif font-medium text-foreground mb-8 animate-fade-in-up opacity-0 delay-100">
@@ -22,16 +22,10 @@ const Hero = ({ onContactClick }: HeroProps) => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 delay-300">
-            <button 
-              onClick={onContactClick}
-              className="font-sans font-semibold px-8 py-4 bg-primary text-primary-foreground hover:bg-ink-light transition-colors text-base"
-            >
+            <button onClick={onContactClick} className="font-sans font-semibold px-8 py-4 bg-primary text-primary-foreground hover:bg-ink-light transition-colors text-base">
               Discutons de votre projet
             </button>
-            <a 
-              href="#offres"
-              className="font-sans font-medium px-8 py-4 border border-foreground/20 text-foreground hover:border-foreground transition-colors text-base text-center"
-            >
+            <a href="#offres" className="font-sans font-medium px-8 py-4 border border-foreground/20 text-foreground hover:border-foreground transition-colors text-base text-center">
               Découvrir les offres
             </a>
           </div>
@@ -47,7 +41,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
             <p className="font-sans text-sm text-muted-foreground mt-1">focus exclusif</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
-            <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Startup</p>
+            <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Start-up</p>
             <p className="font-sans text-sm text-muted-foreground mt-1">à grand groupe</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
@@ -56,8 +50,6 @@ const Hero = ({ onContactClick }: HeroProps) => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
