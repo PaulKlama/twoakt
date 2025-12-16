@@ -24,16 +24,15 @@ const About = () => {
             </h2>
             
             <div className="space-y-6">
-              <p className="font-sans text-body-lg text-ink-light leading-relaxed">Avant de parler aux RH, j’ai appris à les écouter.
+              <p className="font-sans text-body-lg text-ink-light leading-relaxed">Avant de parler aux RH, j’ai appris à les écouter. 
+
 
 Depuis plus de dix ans, je fais du marketing au cœur de la HR Tech, au plus près des équipes RH. Podcasts, événements, échanges terrain : comprendre leurs contraintes, leurs arbitrages et leurs priorités est devenu le point de départ de mon travail. J’ai exercé ce métier dans des contextes très variés, de la start-up pré-Série A à des environnements corporate post-acquisition par SAP.
 
-Si la phase 1 a été d’écouter, comprendre et apprendre, la phase 2 consiste à accompagner les entreprises avec un marketing qui transforme cette connaissance en impact concret. C’est ça, Phase Two.</p>
+Si la phase 1 a été d’écouter, comprendre et apprendre, la phase 2 consiste à accompagner les entreprises avec un marketing qui transforme cette connaissance en impact concret. 
+C’est ça, Phase Two.</p>
               
-              <p className="font-sans text-body-lg text-ink-light leading-relaxed">
-                Mon terrain de jeu exclusif : les entreprises qui parlent aux RH. 
-                Mon approche : pragmatique, orientée impact, sans bullshit.
-              </p>
+              <p className="font-sans text-body-lg text-ink-light leading-relaxed">Mon terrain de jeu : les entreprises qui parlent aux RH. Mon approche : pragmatique, orientée impact, sans bullshit.</p>
             </div>
           </div>
           
