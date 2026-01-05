@@ -68,9 +68,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "serif"],
+        serif: ["Playfair Display", "Georgia", "Times New Roman", "serif"],
         sans: ["League Spartan", "system-ui", "sans-serif"],
-        times: ["Times New Roman", "Times", "serif"],
       },
       fontSize: {
         "display": ["clamp(3rem, 8vw, 6rem)", { lineHeight: "1.05", letterSpacing: "-0.02em" }],

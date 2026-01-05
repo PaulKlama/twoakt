@@ -4,7 +4,7 @@ const ConceptSection = () => {
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-headline font-serif font-medium mb-8">
-            La <em className="font-times italic">Phase Two</em>, c'est quoi ?
+            La Phase Two, c'est quoi ?
           </h2>
           
           <p className="font-sans text-lg md:text-xl leading-relaxed text-primary-foreground/80 mb-12">
