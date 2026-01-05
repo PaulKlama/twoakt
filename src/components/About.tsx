@@ -1,15 +1,15 @@
 const experiences = [{
   title: "Scale-up post Série A",
-  detail: "Croissance accélérée en HR Tech"
+  detail: "Croissance accélérée en B2B SaaS"
 }, {
   title: "SuccessFactors / SAP",
   detail: "Leader mondial des solutions RH"
 }, {
   title: "Start-up early stage",
-  detail: "Pré Série A, premiers clients RH"
+  detail: "Pré Série A, premiers clients grands comptes"
 }, {
   title: "Groupe européen (PE)",
-  detail: "Fusion et transformation RH"
+  detail: "Fusion et transformation digitale"
 }];
 const About = () => {
   return <section id="apropos" className="py-20 md:py-32 scroll-mt-20">
@@ -20,14 +20,14 @@ const About = () => {
               À propos
             </p>
             <h2 className="text-headline font-serif font-medium text-foreground mb-8">
-              10 ans au cœur de la HR Tech
+              10 ans au cœur du B2B Tech
             </h2>
             
             <div className="space-y-6">
-              <p className="font-sans text-body-lg text-ink-light leading-relaxed">Avant de parler aux RH, j’ai appris à les écouter. 
-Depuis plus de dix ans, je fais du marketing en HR Tech, aux côtés des équipes RH. Podcasts, événements et échanges terrain m’ont permis de comprendre leurs priorités et contraintes. 
-J’ai exercé ce métier dans des contextes très variés, de la start-up pré-Série A à des environnements corporate post-acquisition par SAP.
-Si la phase 1 a été d’écouter, comprendre et apprendre, ma phase 2 consiste à accompagner les entreprises avec un marketing qui transforme cette connaissance en impact concret.  C’est ça, Phase Two.
+              <p className="font-sans text-body-lg text-ink-light leading-relaxed">Avant de parler à vos clients, j'ai appris à les comprendre. 
+Depuis plus de dix ans, je fais du marketing en B2B Tech, aux côtés des équipes commerciales et produit. Podcasts, événements et échanges terrain m'ont permis de comprendre les priorités et contraintes des décideurs. 
+J'ai exercé ce métier dans des contextes très variés, de la start-up pré-Série A à des environnements corporate post-acquisition par SAP.
+Si la phase 1 a été d'écouter, comprendre et apprendre, ma phase 2 consiste à accompagner les entreprises avec un marketing qui transforme cette connaissance en impact concret. C'est ça, <em className="font-times italic">Phase Two</em>.
             </p>
               
               
