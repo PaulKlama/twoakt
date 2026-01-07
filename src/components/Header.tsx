@@ -42,12 +42,14 @@ const Header = ({ onContactClick }: HeaderProps) => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <button 
-            onClick={onContactClick} 
+          <a 
+            href="https://cal.com/paul-baratte-wlfehi/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-sans text-sm font-semibold px-5 py-2.5 bg-foreground text-background rounded-full hover:bg-foreground/90 transition-colors"
           >
             Book a call
-          </button>
+          </a>
           
           <button 
             className="md:hidden p-2"
