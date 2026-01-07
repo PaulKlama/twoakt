@@ -59,7 +59,7 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Syne", "system-ui", "sans-serif"],
+        display: ["Satoshi", "system-ui", "sans-serif"],
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
