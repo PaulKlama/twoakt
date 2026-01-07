@@ -1,9 +1,9 @@
 const RealitySection = () => {
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-24 md:py-32 border-t border-border">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="font-sans text-sm font-medium tracking-wide uppercase text-accent mb-6">
+          <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-6">
             The Reality
           </p>
           <h2 className="text-headline font-display text-foreground mb-8">

@@ -6,22 +6,17 @@ interface HeroProps {
 
 const Hero = ({ onContactClick }: HeroProps) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Gradient blurs - inspired by Formant Growth */}
-      <div className="gradient-blur gradient-blur-1" />
-      <div className="gradient-blur gradient-blur-2" />
-      <div className="gradient-blur gradient-blur-3" />
-      
+    <section className="relative min-h-screen flex items-center justify-center pt-20">
       <div className="container relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="font-sans text-sm md:text-base font-medium tracking-wide text-muted-foreground mb-8 animate-fade-in">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="font-sans text-sm md:text-base font-medium text-muted-foreground mb-8 animate-fade-in">
             Fractional CMO · HR Tech
           </p>
           
           <h1 className="text-display font-display text-foreground mb-8 animate-fade-in-up opacity-0 delay-100">
             Your next act in
             <br />
-            marketing <span className="text-gradient">starts now</span>
+            marketing starts now
           </h1>
           
           <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in-up opacity-0 delay-200">
@@ -43,13 +38,6 @@ const Hero = ({ onContactClick }: HeroProps) => {
               Explore how I help
             </a>
           </div>
-        </div>
-      </div>
-      
-      {/* Separator line */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <div className="container">
-          <div className="border-t border-border" />
         </div>
       </div>
     </section>
