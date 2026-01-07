@@ -30,7 +30,7 @@ const About = () => {
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               Act Two
             </p>
-            <h3 className="font-display text-2xl md:text-3xl text-foreground mb-6">
+            <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-6">
               Why twōakt?
             </h3>
             
