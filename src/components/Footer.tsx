@@ -1,28 +1,46 @@
-import logoPhaseTwoBlack from "@/assets/logo-phase-two-black.svg";
+import logoTwoakt from "@/assets/logo-twoakt.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  return <footer className="py-12 border-t border-border">
+  
+  return (
+    <footer className="py-12 border-t border-border">
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <img alt="Phase Two" className="h-6 w-auto" src="/lovable-uploads/0a7aba7f-b758-4f90-be97-4ef15838ad24.png" />
+          <img 
+            src={logoTwoakt} 
+            alt="twoakt" 
+            className="h-6 w-auto" 
+          />
           
           <nav className="flex items-center gap-8">
-            <a href="#offres" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Offres
+            <a 
+              href="#how-i-help" 
+              className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              How I help
             </a>
-            <a href="#expertise" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Expertise
+            <a 
+              href="#how-i-work" 
+              className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              How I work
             </a>
-            <a href="#apropos" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors">
-              À propos
+            <a 
+              href="#about" 
+              className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              About
             </a>
           </nav>
           
           <p className="font-sans text-sm text-muted-foreground">
-            © {currentYear} Phase Two
+            © {currentYear} twoakt
           </p>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;

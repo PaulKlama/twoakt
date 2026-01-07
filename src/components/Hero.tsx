@@ -1,32 +1,37 @@
 interface HeroProps {
   onContactClick: () => void;
 }
-const Hero = ({
-  onContactClick
-}: HeroProps) => {
-  return <section className="min-h-screen flex items-center pt-20 pb-16 md:pt-32 md:pb-24">
+
+const Hero = ({ onContactClick }: HeroProps) => {
+  return (
+    <section className="min-h-screen flex items-center pt-20 pb-16 md:pt-32 md:pb-24">
       <div className="container">
         <div className="max-w-4xl">
           <p className="font-sans text-sm md:text-base font-semibold tracking-widest uppercase text-muted-foreground mb-6 animate-fade-in">
-            Marketing Agency - HR Tech
+            Fractional CMO — HR Tech
           </p>
           
           <h1 className="text-display font-serif font-medium text-foreground mb-8 animate-fade-in-up opacity-0 delay-100">
-            Passez à la<br />
-            <em className="italic">Phase Two</em>
+            Your next act in<br />
+            <em className="italic">marketing starts now</em>
           </h1>
           
           <p className="font-sans text-body-lg text-ink-light max-w-2xl mb-10 animate-fade-in-up opacity-0 delay-200">
-            Phase Two accompagne les entreprises qui parlent aux RH dans leurs moments de croissance critiques. 
-            Structuration. Accélération. Scale.
+            Fractional CMO for HR Tech companies at key stages of growth.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 delay-300">
-            <button onClick={onContactClick} className="font-sans font-semibold px-8 py-4 bg-primary text-primary-foreground hover:bg-ink-light transition-colors text-base">
-              Discutons de votre projet
+            <button 
+              onClick={onContactClick} 
+              className="font-sans font-semibold px-8 py-4 bg-primary text-primary-foreground hover:bg-ink-light transition-colors text-base"
+            >
+              Book a call
             </button>
-            <a href="#offres" className="font-sans font-medium px-8 py-4 border border-foreground/20 text-foreground hover:border-foreground transition-colors text-base text-center">
-              Découvrir les offres
+            <a 
+              href="#how-i-help" 
+              className="font-sans font-medium px-8 py-4 border border-foreground/20 text-foreground hover:border-foreground transition-colors text-base text-center"
+            >
+              Explore how I help
             </a>
           </div>
         </div>
@@ -34,15 +39,15 @@ const Hero = ({
         <div className="mt-20 md:mt-32 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 animate-fade-in-up opacity-0 delay-400">
           <div className="border-l-2 border-foreground/20 pl-4">
             <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">10+</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">ans auprès des RH</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">years in HR Tech</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
             <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">HR Tech</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">focus exclusif</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">exclusive focus</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
-            <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Start-up</p>
-            <p className="font-sans text-sm text-muted-foreground mt-1">à grand groupe</p>
+            <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Startup</p>
+            <p className="font-sans text-sm text-muted-foreground mt-1">to enterprise</p>
           </div>
           <div className="border-l-2 border-foreground/20 pl-4">
             <p className="font-serif text-3xl md:text-4xl font-medium text-foreground">Scale</p>
@@ -50,6 +55,8 @@ const Hero = ({
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
