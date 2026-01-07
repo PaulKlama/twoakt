@@ -38,7 +38,7 @@ const About = () => {
               <p className="font-sans text-base text-muted-foreground leading-relaxed">
                 Act Two is about acting: turning insight into structure, momentum, and results.
               </p>
-              <p className="font-sans text-lg text-foreground font-medium mt-4">twoakt. is where experience meets action.</p>
+              <p className="font-sans text-lg text-foreground font-medium mt-4">twoakt is where experience meets action.</p>
             </div>
           </div>
         </div>
