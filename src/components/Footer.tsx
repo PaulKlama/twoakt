@@ -10,7 +10,7 @@ const Footer = () => {
           <img 
             src={logoTwoakt} 
             alt="twoakt" 
-            className="h-6 w-auto" 
+            className="h-5 w-auto brightness-0 invert opacity-60" 
           />
           
           <nav className="flex items-center gap-8">
