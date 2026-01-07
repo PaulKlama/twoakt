@@ -3,8 +3,7 @@ interface CTASectionProps {
   onContactClick: () => void;
 }
 
-// Cal.com URL - update this when ready to connect
-const CAL_URL = ""; // e.g., "https://cal.com/yourname/30min"
+const CAL_URL = "https://cal.com/paul-baratte-wlfehi/30min";
 
 const CTASection = ({
   onContactClick
