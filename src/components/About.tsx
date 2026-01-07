@@ -1,10 +1,10 @@
 const About = () => {
   return (
     <section id="about" className="py-24 md:py-32 scroll-mt-20 border-t border-border">
-      <div className="container">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
+      <div className="container max-w-4xl">
+        <div className="space-y-8">
           {/* About Block */}
-          <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border flex flex-col">
+          <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border">
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               About
             </p>
@@ -12,7 +12,7 @@ const About = () => {
               Why I understand HR Tech?
             </h2>
             
-            <div className="space-y-4 flex-1">
+            <div className="space-y-4">
               <p className="font-sans text-base text-muted-foreground leading-relaxed">
                 I've spent over ten years building and scaling marketing in HR Tech.
               </p>
@@ -26,7 +26,7 @@ const About = () => {
           </div>
           
           {/* Why twōakt Block */}
-          <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border flex flex-col">
+          <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border">
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               Act Two
             </p>
@@ -34,14 +34,14 @@ const About = () => {
               Why twōakt?
             </h3>
             
-            <div className="space-y-4 flex-1 flex flex-col">
+            <div className="space-y-4">
               <p className="font-sans text-base text-muted-foreground leading-relaxed">
                 Act One was about listening, learning, and understanding HR.
               </p>
               <p className="font-sans text-base text-muted-foreground leading-relaxed">
                 Act Two is about acting: turning insight into structure, momentum, and results.
               </p>
-              <p className="font-sans text-lg text-foreground font-medium mt-auto pt-4">
+              <p className="font-sans text-lg text-foreground font-medium mt-4">
                 twōakt. is where experience meets action.
               </p>
             </div>
