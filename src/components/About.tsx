@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="about" className="py-24 md:py-32 scroll-mt-20 border-t border-border">
+  return <section id="about" className="py-24 md:py-32 scroll-mt-20 border-t border-border">
       <div className="container max-w-4xl">
         <div className="space-y-12">
           {/* About - texte simple */}
@@ -30,9 +29,7 @@ const About = () => {
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               Act Two
             </p>
-            <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-6">
-              Why twōakt?
-            </h3>
+            <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-6">Why twoakt?</h3>
             
             <div className="space-y-4">
               <p className="font-sans text-base text-muted-foreground leading-relaxed">
@@ -41,15 +38,11 @@ const About = () => {
               <p className="font-sans text-base text-muted-foreground leading-relaxed">
                 Act Two is about acting: turning insight into structure, momentum, and results.
               </p>
-              <p className="font-sans text-lg text-foreground font-medium mt-4">
-                twōakt. is where experience meets action.
-              </p>
+              <p className="font-sans text-lg text-foreground font-medium mt-4">twoakt. is where experience meets action.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
