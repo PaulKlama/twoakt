@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <section id="about" className="py-24 md:py-32 scroll-mt-20">
+    <section id="about" className="py-24 md:py-32 scroll-mt-20 border-t border-border">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           <div>
-            <p className="font-sans text-sm font-medium tracking-wide uppercase text-accent mb-6">
+            <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-6">
               About
             </p>
             <h2 className="text-headline font-display text-foreground mb-8">
@@ -24,8 +24,8 @@ const About = () => {
             </div>
           </div>
           
-          <div className="bg-card p-8 md:p-10 rounded-2xl border border-border">
-            <p className="font-sans text-sm font-medium tracking-wide uppercase text-accent mb-6">
+          <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border">
+            <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-6">
               Act Two
             </p>
             <h3 className="font-display text-2xl font-semibold text-foreground mb-6">

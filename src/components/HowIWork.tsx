@@ -33,10 +33,10 @@ const steps = [
 
 const HowIWork = () => {
   return (
-    <section id="how-i-work" className="py-24 md:py-32 bg-secondary/30 scroll-mt-20">
+    <section id="how-i-work" className="py-24 md:py-32 bg-secondary scroll-mt-20">
       <div className="container">
         <div className="text-center mb-16">
-          <p className="font-sans text-sm font-medium tracking-wide uppercase text-accent mb-6">
+          <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-6">
             How I work
           </p>
           <h2 className="text-headline font-display text-foreground mb-4">
@@ -51,9 +51,9 @@ const HowIWork = () => {
           {steps.map((step) => (
             <div 
               key={step.number}
-              className="bg-card p-6 md:p-8 rounded-xl border border-border hover:border-accent/30 transition-all duration-300"
+              className="bg-background p-6 md:p-8 rounded-xl border border-border hover:border-foreground/20 transition-all duration-300"
             >
-              <span className="font-display text-2xl text-accent/50 block mb-4">
+              <span className="font-display text-2xl text-muted-foreground/50 block mb-4">
                 {step.number}
               </span>
               <h3 className="font-display text-lg font-semibold text-foreground mb-3">

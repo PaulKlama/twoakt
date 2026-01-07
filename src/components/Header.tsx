@@ -10,13 +10,13 @@ const Header = ({ onContactClick }: HeaderProps) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center">
           <img 
             src={logoTwoakt} 
             alt="twoakt" 
-            className="h-7 md:h-8 w-auto brightness-0 invert" 
+            className="h-7 md:h-8 w-auto" 
           />
         </a>
         
