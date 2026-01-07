@@ -16,10 +16,10 @@ const Footer = () => {
           
           <div className="flex items-center gap-8">
             <a 
-              href="mailto:paul@twoakt.com" 
+              href="mailto:hello@twoakt.com" 
               className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              paul@twoakt.com
+              hello@twoakt.com
             </a>
             <a 
               href="https://www.linkedin.com/in/paul-baratte/" 
