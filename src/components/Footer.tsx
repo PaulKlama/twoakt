@@ -1,5 +1,5 @@
 import { Linkedin } from "lucide-react";
-import logoTwoakt from "@/assets/logo-twoakt.png";
+import logoTwoakt from "@/assets/logo-twoakt-new.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
