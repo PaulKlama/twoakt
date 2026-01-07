@@ -13,7 +13,7 @@ const HowIHelp = ({ onContactClick }: HowIHelpProps) => {
             How I help
           </p>
           <h2 className="text-headline font-display text-foreground">
-            Two ways to act
+            Two ways to act<span className="text-accent-brand">.</span>
           </h2>
         </div>
         

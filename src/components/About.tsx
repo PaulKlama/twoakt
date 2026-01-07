@@ -8,7 +8,7 @@ const About = () => {
               About
             </p>
             <h2 className="text-headline font-display text-foreground mb-8">
-              Why I understand HR Tech
+              Why I understand HR Tech<span className="text-accent-brand">.</span>
             </h2>
             
             <div className="space-y-6">
