@@ -25,7 +25,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/paul-baratte/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="font-sans text-sm text-accent-brand hover:text-foreground transition-colors flex items-center gap-2"
+              className="font-sans text-sm text-foreground hover:text-muted-foreground transition-colors flex items-center gap-2"
             >
               <Linkedin className="w-4 h-4" />
               LinkedIn
