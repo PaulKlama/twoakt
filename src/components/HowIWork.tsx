@@ -33,30 +33,30 @@ const steps = [
 
 const HowIWork = () => {
   return (
-    <section id="how-i-work" className="py-20 md:py-32 bg-secondary/30 scroll-mt-20">
+    <section id="how-i-work" className="py-24 md:py-32 bg-secondary/30 scroll-mt-20">
       <div className="container">
-        <div className="max-w-xl mb-16">
-          <p className="font-sans text-sm font-semibold tracking-widest uppercase text-muted-foreground mb-4">
+        <div className="text-center mb-16">
+          <p className="font-sans text-sm font-medium tracking-wide uppercase text-accent mb-6">
             How I work
           </p>
-          <h2 className="text-headline font-serif font-medium text-foreground mb-4">
+          <h2 className="text-headline font-display text-foreground mb-4">
             From clarity to action
           </h2>
-          <p className="font-sans text-lg text-ink-light">
+          <p className="font-sans text-lg text-muted-foreground max-w-xl mx-auto">
             My approach is pragmatic and action-oriented.
           </p>
         </div>
         
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {steps.map((step) => (
             <div 
               key={step.number}
-              className="bg-background p-6 md:p-8 hover:bg-secondary/50 transition-colors"
+              className="bg-card p-6 md:p-8 rounded-xl border border-border hover:border-accent/30 transition-all duration-300"
             >
-              <span className="font-serif text-3xl text-muted-foreground/40 block mb-4">
+              <span className="font-display text-2xl text-accent/50 block mb-4">
                 {step.number}
               </span>
-              <h3 className="font-serif text-lg font-medium text-foreground mb-3">
+              <h3 className="font-display text-lg font-semibold text-foreground mb-3">
                 {step.title}
               </h3>
               <p className="font-sans text-sm text-muted-foreground leading-relaxed">

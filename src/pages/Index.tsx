@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import TrustedBy from "@/components/TrustedBy";
 import RealitySection from "@/components/RealitySection";
 import HowIHelp from "@/components/HowIHelp";
 import HowIWork from "@/components/HowIWork";
@@ -17,9 +18,10 @@ const Index = () => {
   };
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-background">
       <Header onContactClick={handleContactClick} />
       <Hero onContactClick={handleContactClick} />
+      <TrustedBy />
       <RealitySection />
       <HowIHelp onContactClick={handleContactClick} />
       <HowIWork />

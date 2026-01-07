@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 import logoTwoakt from "@/assets/logo-twoakt.png";
 
 interface HeaderProps {
@@ -5,45 +7,89 @@ interface HeaderProps {
 }
 
 const Header = ({ onContactClick }: HeaderProps) => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border/50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center">
           <img 
             src={logoTwoakt} 
             alt="twoakt" 
-            className="h-8 md:h-10 w-auto" 
+            className="h-7 md:h-8 w-auto brightness-0 invert" 
           />
         </a>
         
         <nav className="hidden md:flex items-center gap-8">
           <a 
             href="#how-i-help" 
-            className="font-sans text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
+            className="font-sans text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             How I help
           </a>
           <a 
             href="#how-i-work" 
-            className="font-sans text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
+            className="font-sans text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             How I work
           </a>
           <a 
             href="#about" 
-            className="font-sans text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
+            className="font-sans text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             About
           </a>
         </nav>
 
-        <button 
-          onClick={onContactClick} 
-          className="font-sans text-sm font-semibold px-5 py-2.5 bg-primary text-primary-foreground hover:bg-ink-light transition-colors"
-        >
-          Contact
-        </button>
+        <div className="flex items-center gap-4">
+          <button 
+            onClick={onContactClick} 
+            className="font-sans text-sm font-semibold px-5 py-2.5 bg-foreground text-background rounded-full hover:bg-foreground/90 transition-colors"
+          >
+            Book a call
+          </button>
+          
+          <button 
+            className="md:hidden p-2"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? (
+              <X className="w-5 h-5 text-foreground" />
+            ) : (
+              <Menu className="w-5 h-5 text-foreground" />
+            )}
+          </button>
+        </div>
       </div>
+      
+      {/* Mobile menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden bg-background border-t border-border">
+          <nav className="container py-6 flex flex-col gap-4">
+            <a 
+              href="#how-i-help" 
+              className="font-sans text-base font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              How I help
+            </a>
+            <a 
+              href="#how-i-work" 
+              className="font-sans text-base font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              How I work
+            </a>
+            <a 
+              href="#about" 
+              className="font-sans text-base font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              About
+            </a>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };

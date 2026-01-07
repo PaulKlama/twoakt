@@ -9,7 +9,7 @@ export default {
       center: true,
       padding: "1.5rem",
       screens: {
-        "2xl": "1280px",
+        "2xl": "1200px",
       },
     },
     extend: {
@@ -57,24 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        cream: {
-          DEFAULT: "hsl(var(--cream))",
-          dark: "hsl(var(--cream-dark))",
-        },
-        ink: {
-          DEFAULT: "hsl(var(--ink))",
-          light: "hsl(var(--ink-light))",
-          muted: "hsl(var(--ink-muted))",
-        },
       },
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "Times New Roman", "serif"],
-        sans: ["League Spartan", "system-ui", "sans-serif"],
+        display: ["Syne", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
-        "display": ["clamp(3rem, 8vw, 6rem)", { lineHeight: "1.05", letterSpacing: "-0.02em" }],
-        "headline": ["clamp(2rem, 5vw, 3.5rem)", { lineHeight: "1.15", letterSpacing: "-0.01em" }],
-        "title": ["clamp(1.5rem, 3vw, 2.25rem)", { lineHeight: "1.2" }],
+        "display": ["clamp(2.5rem, 6vw, 4.5rem)", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "headline": ["clamp(1.75rem, 4vw, 2.75rem)", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "title": ["clamp(1.25rem, 2.5vw, 1.75rem)", { lineHeight: "1.3", fontWeight: "600" }],
         "body-lg": ["1.125rem", { lineHeight: "1.7" }],
       },
       borderRadius: {
