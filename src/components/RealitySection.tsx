@@ -12,7 +12,7 @@ const RealitySection = () => {
           <p className="font-sans text-lg md:text-xl leading-relaxed text-muted-foreground">
             You're addressing one of the most solicited and complex audiences: HR teams.
           </p>
-          <p className="font-sans text-lg md:text-xl leading-relaxed text-muted-foreground mt-6">Without clear priorities and strong leadership, marketing efforts often stall or fail to create real business impact.</p>
+          <p className="font-sans text-lg md:text-xl leading-relaxed text-muted-foreground mt-6">Without clear priorities and strong leadership, marketing efforts often stall —or fail to create real business impact.</p>
         </div>
       </div>
     </section>;
