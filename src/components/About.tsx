@@ -2,9 +2,9 @@ const About = () => {
   return (
     <section id="about" className="py-24 md:py-32 scroll-mt-20 border-t border-border">
       <div className="container max-w-4xl">
-        <div className="space-y-8">
-          {/* About Block */}
-          <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border">
+        <div className="space-y-12">
+          {/* About - texte simple */}
+          <div>
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               About
             </p>
@@ -25,7 +25,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* Why twōakt Block */}
+          {/* Why twōakt - bloc avec fond */}
           <div className="bg-secondary p-8 md:p-10 rounded-2xl border border-border">
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               Act Two
