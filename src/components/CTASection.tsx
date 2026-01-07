@@ -21,7 +21,7 @@ const CTASection = ({ onContactClick }: CTASectionProps) => {
       <div className="container">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-headline font-display text-foreground mb-6">
-            Ready to move forward<span className="text-accent-brand">?</span>
+            Ready to move forward?
           </h2>
           
           <button 

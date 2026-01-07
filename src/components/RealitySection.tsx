@@ -7,7 +7,7 @@ const RealitySection = () => {
             The Reality
           </p>
           <h2 className="text-headline font-display text-foreground mb-8">
-            Marketing in HR Tech is different<span className="text-accent-brand">.</span>
+            Marketing in HR Tech is different
           </h2>
           
           <p className="font-sans text-lg md:text-xl leading-relaxed text-muted-foreground">
