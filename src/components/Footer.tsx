@@ -14,40 +14,27 @@ const Footer = () => {
             className="h-5 w-auto opacity-60" 
           />
           
-          <nav className="flex items-center gap-8">
+          <div className="flex items-center gap-8">
             <a 
-              href="#how-i-help" 
+              href="mailto:paul@twoakt.com" 
               className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              How I help
+              paul@twoakt.com
             </a>
-            <a 
-              href="#how-i-work" 
-              className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              How I work
-            </a>
-            <a 
-              href="#about" 
-              className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              About
-            </a>
-          </nav>
-          
-          <div className="flex items-center gap-4">
             <a 
               href="https://www.linkedin.com/in/paul-baratte/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-accent-brand hover:text-foreground transition-colors"
+              className="font-sans text-sm text-accent-brand hover:text-foreground transition-colors flex items-center gap-2"
             >
-              <Linkedin className="w-5 h-5" />
+              <Linkedin className="w-4 h-4" />
+              LinkedIn
             </a>
-            <p className="font-sans text-sm text-muted-foreground">
-              © {currentYear} twoakt
-            </p>
           </div>
+          
+          <p className="font-sans text-sm text-muted-foreground">
+            © {currentYear} twoakt
+          </p>
         </div>
       </div>
     </footer>
