@@ -8,7 +8,7 @@ const About = () => {
             <p className="font-sans text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
               About
             </p>
-            <h2 className="text-2xl md:text-3xl font-display text-foreground mb-6">
+            <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-6">
               Why I understand HR Tech?
             </h2>
             
