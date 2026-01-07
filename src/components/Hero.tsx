@@ -16,7 +16,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
           <h1 className="text-display font-display text-foreground mb-8 animate-fade-in-up opacity-0 delay-100">
             Your next act in
             <br />
-            marketing starts now<span className="text-accent-brand">.</span>
+            marketing starts now
           </h1>
           
           <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in-up opacity-0 delay-200">

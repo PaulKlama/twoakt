@@ -40,7 +40,7 @@ const HowIWork = () => {
             How I work
           </p>
           <h2 className="text-headline font-display text-foreground mb-4">
-            From clarity to action<span className="text-accent-brand">.</span>
+            From clarity to action
           </h2>
           <p className="font-sans text-lg text-muted-foreground max-w-xl mx-auto">
             My approach is pragmatic and action-oriented.
