@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoTwoakt from "@/assets/logo-twoakt.png";
+import logoTwoakt from "@/assets/logo-twoakt-new.png";
 
 interface HeaderProps {
   onContactClick: () => void;
