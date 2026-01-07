@@ -1,11 +1,10 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import ConceptSection from "@/components/ConceptSection";
-import Offers from "@/components/Offers";
-import Expertise from "@/components/Expertise";
+import RealitySection from "@/components/RealitySection";
+import HowIHelp from "@/components/HowIHelp";
+import HowIWork from "@/components/HowIWork";
 import About from "@/components/About";
-import Targets from "@/components/Targets";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import ContactModal from "@/components/ContactModal";
@@ -21,11 +20,10 @@ const Index = () => {
     <main className="min-h-screen">
       <Header onContactClick={handleContactClick} />
       <Hero onContactClick={handleContactClick} />
-      <ConceptSection />
-      <Offers onContactClick={handleContactClick} />
-      <Expertise />
+      <RealitySection />
+      <HowIHelp onContactClick={handleContactClick} />
+      <HowIWork />
       <About />
-      <Targets />
       <CTASection onContactClick={handleContactClick} />
       <Footer />
       <ContactModal open={contactOpen} onOpenChange={setContactOpen} />

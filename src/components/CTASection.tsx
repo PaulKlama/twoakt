@@ -8,19 +8,18 @@ const CTASection = ({ onContactClick }: CTASectionProps) => {
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-headline font-serif font-medium mb-6">
-            Prêt à passer à la Phase Two ?
+            Ready to move forward?
           </h2>
           
-          <p className="font-sans text-lg text-primary-foreground/80 mb-10 max-w-xl mx-auto">
-            Discutons de vos enjeux et voyons comment Phase Two peut vous accompagner 
-            dans votre prochaine phase de croissance.
+          <p className="font-sans text-2xl md:text-3xl font-serif italic text-primary-foreground/90 mb-10">
+            Let's act.
           </p>
           
           <button 
             onClick={onContactClick}
             className="font-sans font-semibold px-10 py-4 bg-primary-foreground text-primary hover:bg-primary-foreground/90 transition-colors text-base"
           >
-            Prendre contact
+            Book a call
           </button>
         </div>
       </div>
