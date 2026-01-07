@@ -48,10 +48,10 @@ const HowIHelp = ({
               </ul>
             </div>
             
-            <button onClick={onContactClick} className="group/btn font-sans text-sm font-semibold text-foreground flex items-center gap-2 hover:opacity-70 transition-opacity">
-              Get started
+            <a href="https://cal.com/paul-baratte-wlfehi/30min" target="_blank" rel="noopener noreferrer" className="group/btn font-sans text-sm font-semibold text-foreground flex items-center gap-2 hover:opacity-70 transition-opacity">
+              Schedule a discovery call
               <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-            </button>
+            </a>
           </div>
           
           {/* Marketing Leadership Advisory */}
@@ -87,10 +87,10 @@ const HowIHelp = ({
               </ul>
             </div>
             
-            <button onClick={onContactClick} className="group/btn font-sans text-sm font-semibold text-foreground flex items-center gap-2 hover:opacity-70 transition-opacity">
-              Get started
+            <a href="https://cal.com/paul-baratte-wlfehi/30min" target="_blank" rel="noopener noreferrer" className="group/btn font-sans text-sm font-semibold text-foreground flex items-center gap-2 hover:opacity-70 transition-opacity">
+              Invest in your marketing leaders
               <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
