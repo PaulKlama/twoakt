@@ -1,3 +1,4 @@
+import { Linkedin } from "lucide-react";
 import logoTwoakt from "@/assets/logo-twoakt.png";
 
 const Footer = () => {
@@ -34,9 +35,19 @@ const Footer = () => {
             </a>
           </nav>
           
-          <p className="font-sans text-sm text-muted-foreground">
-            © {currentYear} twoakt
-          </p>
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://www.linkedin.com/in/paul-baratte/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <p className="font-sans text-sm text-muted-foreground">
+              © {currentYear} twoakt
+            </p>
+          </div>
         </div>
       </div>
     </footer>
