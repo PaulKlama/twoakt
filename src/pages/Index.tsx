@@ -23,8 +23,8 @@ const Index = () => {
       <RealitySection />
       <HowIHelp onContactClick={handleContactClick} />
       <HowIWork />
-      <CTASection onContactClick={handleContactClick} />
       <About />
+      <CTASection onContactClick={handleContactClick} />
       <Footer />
       <ContactModal open={contactOpen} onOpenChange={setContactOpen} />
     </main>
