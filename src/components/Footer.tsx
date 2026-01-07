@@ -40,7 +40,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/paul-baratte/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-accent-brand hover:text-foreground transition-colors"
             >
               <Linkedin className="w-5 h-5" />
             </a>

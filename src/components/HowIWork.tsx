@@ -53,7 +53,7 @@ const HowIWork = () => {
               key={step.number}
               className="bg-background p-6 md:p-8 rounded-xl border border-border hover:border-foreground/20 transition-all duration-300"
             >
-              <span className="font-display text-2xl text-muted-foreground/50 block mb-4">
+              <span className="font-display text-2xl text-accent-brand block mb-4">
                 {step.number}
               </span>
               <h3 className="font-display text-lg font-semibold text-foreground mb-3">
