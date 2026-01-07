@@ -63,9 +63,9 @@ export default {
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
-        "display": ["clamp(2.5rem, 6vw, 4.5rem)", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
-        "headline": ["clamp(1.75rem, 4vw, 2.75rem)", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "600" }],
-        "title": ["clamp(1.25rem, 2.5vw, 1.75rem)", { lineHeight: "1.3", fontWeight: "600" }],
+        "display": ["clamp(2.5rem, 6vw, 4.5rem)", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "800" }],
+        "headline": ["clamp(1.75rem, 4vw, 2.75rem)", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700" }],
+        "title": ["clamp(1.25rem, 2.5vw, 1.75rem)", { lineHeight: "1.3", fontWeight: "700" }],
         "body-lg": ["1.125rem", { lineHeight: "1.7" }],
       },
       borderRadius: {
