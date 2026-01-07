@@ -21,7 +21,7 @@ const HowIHelp = ({ onContactClick }: HowIHelpProps) => {
           {/* Fractional CMO */}
           <div className="group bg-card p-8 md:p-10 rounded-2xl border border-border hover:border-foreground/20 transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
-              <span className="font-display text-sm font-semibold text-muted-foreground">01</span>
+              <span className="font-display text-sm font-semibold text-accent-brand">01</span>
               <div className="h-px flex-1 bg-border" />
             </div>
             
@@ -37,15 +37,15 @@ const HowIHelp = ({ onContactClick }: HowIHelpProps) => {
               <p className="font-sans text-sm font-semibold text-foreground">Best for:</p>
               <ul className="space-y-2">
                 <li className="flex items-center gap-3 font-sans text-sm text-muted-foreground">
-                  <span className="w-1 h-1 rounded-full bg-foreground" />
+                  <span className="w-1 h-1 rounded-full bg-accent-brand" />
                   HR Tech companies scaling
                 </li>
                 <li className="flex items-center gap-3 font-sans text-sm text-muted-foreground">
-                  <span className="w-1 h-1 rounded-full bg-foreground" />
+                  <span className="w-1 h-1 rounded-full bg-accent-brand" />
                   Teams needing senior marketing leadership
                 </li>
                 <li className="flex items-center gap-3 font-sans text-sm text-muted-foreground">
-                  <span className="w-1 h-1 rounded-full bg-foreground" />
+                  <span className="w-1 h-1 rounded-full bg-accent-brand" />
                   Founders looking for impact, not noise
                 </li>
               </ul>
@@ -63,7 +63,7 @@ const HowIHelp = ({ onContactClick }: HowIHelpProps) => {
           {/* Marketing Leadership Advisory */}
           <div className="group bg-secondary p-8 md:p-10 rounded-2xl border border-border hover:border-foreground/20 transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
-              <span className="font-display text-sm font-semibold text-muted-foreground">02</span>
+              <span className="font-display text-sm font-semibold text-accent-brand">02</span>
               <div className="h-px flex-1 bg-border" />
             </div>
             
@@ -79,15 +79,15 @@ const HowIHelp = ({ onContactClick }: HowIHelpProps) => {
               <p className="font-sans text-sm font-semibold text-foreground">Best for:</p>
               <ul className="space-y-2">
                 <li className="flex items-center gap-3 font-sans text-sm text-muted-foreground">
-                  <span className="w-1 h-1 rounded-full bg-foreground" />
+                  <span className="w-1 h-1 rounded-full bg-accent-brand" />
                   First Head of Marketing
                 </li>
                 <li className="flex items-center gap-3 font-sans text-sm text-muted-foreground">
-                  <span className="w-1 h-1 rounded-full bg-foreground" />
+                  <span className="w-1 h-1 rounded-full bg-accent-brand" />
                   Growing marketing teams
                 </li>
                 <li className="flex items-center gap-3 font-sans text-sm text-muted-foreground">
-                  <span className="w-1 h-1 rounded-full bg-foreground" />
+                  <span className="w-1 h-1 rounded-full bg-accent-brand" />
                   Strategic transitions
                 </li>
               </ul>
