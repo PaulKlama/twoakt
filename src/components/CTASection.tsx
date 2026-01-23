@@ -3,7 +3,7 @@ interface CTASectionProps {
   onContactClick: () => void;
 }
 
-const CAL_URL = "https://cal.com/paul-baratte-wlfehi/30min";
+const CAL_URL = "https://cal.com/paul-baratte-twoakt/30min";
 
 const CTASection = ({
   onContactClick

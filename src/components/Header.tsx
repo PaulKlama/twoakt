@@ -43,7 +43,7 @@ const Header = ({ onContactClick }: HeaderProps) => {
 
         <div className="flex items-center gap-4">
           <a 
-            href="https://cal.com/paul-baratte-wlfehi/30min"
+            href="https://cal.com/paul-baratte-twoakt/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-sm font-semibold px-5 py-2.5 bg-foreground text-background rounded-full hover:bg-foreground/90 transition-colors"

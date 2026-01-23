@@ -23,7 +23,7 @@ const Hero = ({
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up opacity-0 delay-300">
-            <a href="https://cal.com/paul-baratte-wlfehi/30min" target="_blank" rel="noopener noreferrer" className="group font-sans font-semibold px-8 py-4 bg-foreground text-background rounded-full hover:bg-foreground/90 transition-all text-base flex items-center justify-center gap-2">
+            <a href="https://cal.com/paul-baratte-twoakt/30min" target="_blank" rel="noopener noreferrer" className="group font-sans font-semibold px-8 py-4 bg-foreground text-background rounded-full hover:bg-foreground/90 transition-all text-base flex items-center justify-center gap-2">
               Book a call
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
